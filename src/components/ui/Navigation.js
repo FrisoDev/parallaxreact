@@ -3,7 +3,7 @@ import AppBar from 'material-ui/AppBar';
 
 const Navigation = () => (
   <AppBar
-    title="Parallax Scroll"
+    title="Friso Stoker"
     iconClassNameRight="muidocs-icon-navigation-expand-more"
   />
 );

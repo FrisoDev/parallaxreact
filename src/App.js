@@ -7,6 +7,7 @@ import Footer from './components/ui/Footer'
 import Header from './components/Header'
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Scroller from './components/Scroller'
+import HumbleBrag from './components/HumbleBrag'
 import './App.css'
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
           <Navigation />
           <Header />
           <Scroller />
+          <HumbleBrag />
           </ParallaxProvider>
           <Footer />
         </div>
