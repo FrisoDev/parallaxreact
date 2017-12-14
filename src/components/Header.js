@@ -5,7 +5,7 @@ class Header extends PureComponent {
   render() {
     return(
       <div className="Header">
-      <p>Yoko Ono</p>
+      <h1 className="Title">Yoko Ono</h1>
       </div>
     )
   }

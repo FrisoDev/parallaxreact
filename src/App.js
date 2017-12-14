@@ -5,8 +5,8 @@ import muiTheme from './styles/theme'
 import Navigation from './components/ui/Navigation'
 import Footer from './components/ui/Footer'
 import Header from './components/Header'
-import Parallax from './components/Parallax'
-import Scrollby from './components/Scrollby'
+import { ParallaxProvider } from 'react-scroll-parallax';
+import Scroller from './components/Scroller'
 import './App.css'
 
 class App extends Component {
@@ -22,10 +22,11 @@ class App extends Component {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
         <div className="App">
+          <ParallaxProvider>
           <Navigation />
           <Header />
-          <Parallax />
-          <Scrollby />
+          <Scroller />
+          </ParallaxProvider>
           <Footer />
         </div>
       </MuiThemeProvider>
