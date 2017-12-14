@@ -1,15 +1,9 @@
 .Filler{
   height: 2000px;
 }
-
-.ScrollCon {
-  height: 500px;
-}
-
-.texto {
-  color: Yellow;
-}
-
 .ParaScroll {
   height: 600px;
+}
+.Acco {
+  width: 50px;
 }

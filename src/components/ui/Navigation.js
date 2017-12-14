@@ -3,7 +3,7 @@ import AppBar from 'material-ui/AppBar';
 
 const Navigation = () => (
   <AppBar
-    title="Parallax"
+    title="Parallax Scroll"
     iconClassNameRight="muidocs-icon-navigation-expand-more"
   />
 );
