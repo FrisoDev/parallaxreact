@@ -5,6 +5,9 @@ import muiTheme from './styles/theme'
 import Navigation from './components/ui/Navigation'
 import Footer from './components/ui/Footer'
 import Header from './components/Header'
+import Parallax from './components/Parallax'
+import Scrollby from './components/Scrollby'
+import './App.css'
 
 class App extends Component {
   static childContextTypes = {
@@ -21,6 +24,8 @@ class App extends Component {
         <div className="App">
           <Navigation />
           <Header />
+          <Parallax />
+          <Scrollby />
           <Footer />
         </div>
       </MuiThemeProvider>
