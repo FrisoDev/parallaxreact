@@ -1,11 +1,18 @@
 import React, { PureComponent } from 'react'
 import { Parallax, Background } from 'react-parallax';
+import Lorem from 'react-lorem-component'
+import './Acco.css'
 import './Scroller.css'
 
 class Scroller extends PureComponent {
   render() {
     return (
       <div>
+      <div className="LoremContainer">
+      <div className="Acco">
+      <Lorem count="3" mode='list'/>
+      </div>
+      </div>
         <Parallax className="ParaScroll"
          strength={700}>
          <Background>
@@ -16,7 +23,10 @@ class Scroller extends PureComponent {
               }}></div>
           </Background>
         </Parallax>
-        <div className="Filler">
+        <div className="LoremContainer">
+        <div className="Acco">
+        <Lorem count="3" mode='list'/>
+        </div>
         </div>
       </div>
     )
